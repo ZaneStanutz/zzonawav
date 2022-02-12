@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zzonawavani2" android:duration="1000"/>
+    <item android:drawable="@drawable/zzonawavani3" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani4" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani5" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani6" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani7" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani8" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani9" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani10" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani11" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani12" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani13" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani14" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani15" android:duration="100"/>
+    <item android:drawable="@drawable/zzonawavani16" android:duration="100"/>
+</animation-list>

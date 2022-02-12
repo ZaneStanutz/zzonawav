@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">zaneProjectApp</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be 5 characters</string>
+    <string name="enter_phone">Enter phone number:</string>
+    <string name="enter_validation_code">Enter verification code:</string>
+    <string name="phone_placeholder">12223334444</string>
+    <string name="passcode_placeholder">123456</string>
+    <string name="validation_failed">Validation failed. Please wait 2 minutes and try again.</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_list">Check to be added to our email list</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="password_two">Enter password again</string>
+    <string name="download">Download</string>
+    <string name="salaamito">salaamito.mp3</string>
+    <string name="giraffeLanguage">giraffeLanguage.mp3</string>
+    <string name="no_code">code not received?</string>
+
+</resources>

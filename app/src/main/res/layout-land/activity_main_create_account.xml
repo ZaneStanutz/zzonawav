@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivityCreateAccount">
+
+    <EditText
+        android:id="@+id/editTextCreateAccountUsername"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextCreateAccountEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextCreateAccountPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreateAccountEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextCreateAccountPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreateAccountUsername" />
+
+    <Button
+        android:id="@+id/buttonCreateAccountSecondary"
+        android:layout_width="183dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/create_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreateAccountPasswordTwo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCreateAccountEmailOk"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="96dp"
+        android:text="@string/email_list"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreateAccountPhoneNumber" />
+
+    <EditText
+        android:id="@+id/editTextCreateAccountPasswordTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/password_two"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCreateAccountPassword" />
+</androidx.constraintlayout.widget.ConstraintLayout>
